@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F8D19EFEA4E164FBFA54F61 /* libPods-JWNavBarNestTabBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9877CB3F820C6868C805147 /* libPods-JWNavBarNestTabBar.a */; };
+		2FBD87101F737B93005D40A2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD870F1F737B93005D40A2 /* main.m */; };
+		2FBD87131F737B93005D40A2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87121F737B93005D40A2 /* AppDelegate.m */; };
+		2FBD871B1F737B93005D40A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD871A1F737B93005D40A2 /* Assets.xcassets */; };
+		2FBD871E1F737B93005D40A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD871C1F737B93005D40A2 /* LaunchScreen.storyboard */; };
+		2FBD872A1F737C2B005D40A2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87291F737C2B005D40A2 /* MainViewController.m */; };
+		2FBD872C1F737C95005D40A2 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD872B1F737C95005D40A2 /* MainViewController.xib */; };
+		2FBD87301F737CB8005D40A2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD872E1F737CB8005D40A2 /* FirstViewController.m */; };
+		2FBD87311F737CB8005D40A2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */; };
+		2FBD87351F737CCA005D40A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87331F737CCA005D40A2 /* SecondViewController.m */; };
+		2FBD87361F737CCA005D40A2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87341F737CCA005D40A2 /* SecondViewController.xib */; };
+		2FBD873A1F738048005D40A2 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87381F738048005D40A2 /* FirstDetailViewController.m */; };
+		2FBD873B1F738048005D40A2 /* FirstDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */; };
+		2FBD87401F738F41005D40A2 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD873F1F738F41005D40A2 /* bg.png */; };
+		2FBD87451F73AA3E005D40A2 /* cities.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87441F73AA3E005D40A2 /* cities.xml */; };
+		2FBD87491F73B961005D40A2 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87481F73B961005D40A2 /* WeatherModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBD870B1F737B93005D40A2 /* JWNavBarNestTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWNavBarNestTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBD870F1F737B93005D40A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FBD87111F737B93005D40A2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FBD87121F737B93005D40A2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FBD871A1F737B93005D40A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBD871D1F737B93005D40A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FBD871F1F737B93005D40A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FBD87281F737C2B005D40A2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		2FBD87291F737C2B005D40A2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2FBD872B1F737C95005D40A2 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		2FBD872D1F737CB8005D40A2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2FBD872E1F737CB8005D40A2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		2FBD87321F737CCA005D40A2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2FBD87331F737CCA005D40A2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2FBD87341F737CCA005D40A2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		2FBD87371F738048005D40A2 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
+		2FBD87381F738048005D40A2 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
+		2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDetailViewController.xib; sourceTree = "<group>"; };
+		2FBD873F1F738F41005D40A2 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = JWNavBarNestTabBar/bg.png; sourceTree = "<group>"; };
+		2FBD87421F739083005D40A2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2FBD87431F739DAE005D40A2 /* URL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URL.h; sourceTree = "<group>"; };
+		2FBD87441F73AA3E005D40A2 /* cities.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cities.xml; sourceTree = "<group>"; };
+		2FBD87471F73B961005D40A2 /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
+		2FBD87481F73B961005D40A2 /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		D9877CB3F820C6868C805147 /* libPods-JWNavBarNestTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWNavBarNestTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBD87081F737B93005D40A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8D19EFEA4E164FBFA54F61 /* libPods-JWNavBarNestTabBar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBD87021F737B93005D40A2 = {
+			isa = PBXGroup;
+			children = (
+				2FBD870D1F737B93005D40A2 /* JWNavBarNestTabBar */,
+				2FBD870C1F737B93005D40A2 /* Products */,
+				D33B3374F6E91FC063AABEFF /* Pods */,
+				C25840BD8BB99DCFF4609D09 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBD870C1F737B93005D40A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD870B1F737B93005D40A2 /* JWNavBarNestTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBD870D1F737B93005D40A2 /* JWNavBarNestTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD87461F73B949005D40A2 /* Model */,
+				2FBD87411F73905F005D40A2 /* util */,
+				2FBD873C1F738323005D40A2 /* resources */,
+				2FBD87111F737B93005D40A2 /* AppDelegate.h */,
+				2FBD87121F737B93005D40A2 /* AppDelegate.m */,
+				2FBD871A1F737B93005D40A2 /* Assets.xcassets */,
+				2FBD871C1F737B93005D40A2 /* LaunchScreen.storyboard */,
+				2FBD871F1F737B93005D40A2 /* Info.plist */,
+				2FBD870E1F737B93005D40A2 /* Supporting Files */,
+				2FBD87281F737C2B005D40A2 /* MainViewController.h */,
+				2FBD87291F737C2B005D40A2 /* MainViewController.m */,
+				2FBD872B1F737C95005D40A2 /* MainViewController.xib */,
+				2FBD872D1F737CB8005D40A2 /* FirstViewController.h */,
+				2FBD872E1F737CB8005D40A2 /* FirstViewController.m */,
+				2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */,
+				2FBD87321F737CCA005D40A2 /* SecondViewController.h */,
+				2FBD87331F737CCA005D40A2 /* SecondViewController.m */,
+				2FBD87341F737CCA005D40A2 /* SecondViewController.xib */,
+				2FBD87371F738048005D40A2 /* FirstDetailViewController.h */,
+				2FBD87381F738048005D40A2 /* FirstDetailViewController.m */,
+				2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */,
+			);
+			path = JWNavBarNestTabBar;
+			sourceTree = "<group>";
+		};
+		2FBD870E1F737B93005D40A2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD870F1F737B93005D40A2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FBD873C1F738323005D40A2 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD87441F73AA3E005D40A2 /* cities.xml */,
+				2FBD873F1F738F41005D40A2 /* bg.png */,
+			);
+			name = resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		2FBD87411F73905F005D40A2 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD87421F739083005D40A2 /* PrefixHeader.pch */,
+				2FBD87431F739DAE005D40A2 /* URL.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		2FBD87461F73B949005D40A2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD87471F73B961005D40A2 /* WeatherModel.h */,
+				2FBD87481F73B961005D40A2 /* WeatherModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C25840BD8BB99DCFF4609D09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9877CB3F820C6868C805147 /* libPods-JWNavBarNestTabBar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D33B3374F6E91FC063AABEFF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */,
+				69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBD870A1F737B93005D40A2 /* JWNavBarNestTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBD87221F737B93005D40A2 /* Build configuration list for PBXNativeTarget "JWNavBarNestTabBar" */;
+			buildPhases = (
+				A46B1D33856E859DBDDA1EED /* [CP] Check Pods Manifest.lock */,
+				2FBD87071F737B93005D40A2 /* Sources */,
+				2FBD87081F737B93005D40A2 /* Frameworks */,
+				2FBD87091F737B93005D40A2 /* Resources */,
+				6E68D8EEF22609543B8DE0AB /* [CP] Embed Pods Frameworks */,
+				AF281B096E1391B6C1C5FA72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWNavBarNestTabBar;
+			productName = JWNavBarNestTabBar;
+			productReference = 2FBD870B1F737B93005D40A2 /* JWNavBarNestTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBD87031F737B93005D40A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wjwdive;
+				TargetAttributes = {
+					2FBD870A1F737B93005D40A2 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LHK6PK48JE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FBD87061F737B93005D40A2 /* Build configuration list for PBXProject "JWNavBarNestTabBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBD87021F737B93005D40A2;
+			productRefGroup = 2FBD870C1F737B93005D40A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBD870A1F737B93005D40A2 /* JWNavBarNestTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBD87091F737B93005D40A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD871E1F737B93005D40A2 /* LaunchScreen.storyboard in Resources */,
+				2FBD872C1F737C95005D40A2 /* MainViewController.xib in Resources */,
+				2FBD87451F73AA3E005D40A2 /* cities.xml in Resources */,
+				2FBD87401F738F41005D40A2 /* bg.png in Resources */,
+				2FBD871B1F737B93005D40A2 /* Assets.xcassets in Resources */,
+				2FBD87311F737CB8005D40A2 /* FirstViewController.xib in Resources */,
+				2FBD873B1F738048005D40A2 /* FirstDetailViewController.xib in Resources */,
+				2FBD87361F737CCA005D40A2 /* SecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E68D8EEF22609543B8DE0AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A46B1D33856E859DBDDA1EED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JWNavBarNestTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF281B096E1391B6C1C5FA72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBD87071F737B93005D40A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBD87351F737CCA005D40A2 /* SecondViewController.m in Sources */,
+				2FBD87131F737B93005D40A2 /* AppDelegate.m in Sources */,
+				2FBD872A1F737C2B005D40A2 /* MainViewController.m in Sources */,
+				2FBD87101F737B93005D40A2 /* main.m in Sources */,
+				2FBD873A1F738048005D40A2 /* FirstDetailViewController.m in Sources */,
+				2FBD87491F73B961005D40A2 /* WeatherModel.m in Sources */,
+				2FBD87301F737CB8005D40A2 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FBD871C1F737B93005D40A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FBD871D1F737B93005D40A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FBD87201F737B93005D40A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FBD87211F737B93005D40A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FBD87231F737B93005D40A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHK6PK48JE;
+				INFOPLIST_FILE = JWNavBarNestTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wjw.JWNavBarNestTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FBD87241F737B93005D40A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LHK6PK48JE;
+				INFOPLIST_FILE = JWNavBarNestTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wjw.JWNavBarNestTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBD87061F737B93005D40A2 /* Build configuration list for PBXProject "JWNavBarNestTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBD87201F737B93005D40A2 /* Debug */,
+				2FBD87211F737B93005D40A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBD87221F737B93005D40A2 /* Build configuration list for PBXNativeTarget "JWNavBarNestTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBD87231F737B93005D40A2 /* Debug */,
+				2FBD87241F737B93005D40A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FBD87031F737B93005D40A2 /* Project object */;
+}
