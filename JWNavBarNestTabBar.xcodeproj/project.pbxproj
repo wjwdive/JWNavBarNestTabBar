@@ -23,6 +23,16 @@
 		2FBD87401F738F41005D40A2 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD873F1F738F41005D40A2 /* bg.png */; };
 		2FBD87451F73AA3E005D40A2 /* cities.xml in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87441F73AA3E005D40A2 /* cities.xml */; };
 		2FBD87491F73B961005D40A2 /* WeatherModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87481F73B961005D40A2 /* WeatherModel.m */; };
+		2FBE2C001F74B58F00E202F4 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2BFE1F74B58F00E202F4 /* ThirdViewController.m */; };
+		2FBE2C011F74B58F00E202F4 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE2BFF1F74B58F00E202F4 /* ThirdViewController.xib */; };
+		2FBE2C051F74B5A500E202F4 /* FouthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C031F74B5A500E202F4 /* FouthViewController.m */; };
+		2FBE2C061F74B5A500E202F4 /* FouthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE2C041F74B5A500E202F4 /* FouthViewController.xib */; };
+		2FBE2C0E1F74FE8200E202F4 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C0C1F74FE8200E202F4 /* SearchViewController.m */; };
+		2FBE2C0F1F74FE8200E202F4 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE2C0D1F74FE8200E202F4 /* SearchViewController.xib */; };
+		2FBE2C131F7506F600E202F4 /* SearchTVCWithScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C121F7506F600E202F4 /* SearchTVCWithScroll.m */; };
+		2FBE2C191F7507FC00E202F4 /* SearchTVCNoScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C181F7507FC00E202F4 /* SearchTVCNoScroll.m */; };
+		2FBE2C1C1F75082300E202F4 /* SearchTVCOnly.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C1B1F75082300E202F4 /* SearchTVCOnly.m */; };
+		2FBE2C1F1F75084A00E202F4 /* SearchTVCWithSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C1E1F75084A00E202F4 /* SearchTVCWithSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +61,23 @@
 		2FBD87441F73AA3E005D40A2 /* cities.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = cities.xml; sourceTree = "<group>"; };
 		2FBD87471F73B961005D40A2 /* WeatherModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherModel.h; sourceTree = "<group>"; };
 		2FBD87481F73B961005D40A2 /* WeatherModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherModel.m; sourceTree = "<group>"; };
+		2FBE2BFD1F74B58F00E202F4 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		2FBE2BFE1F74B58F00E202F4 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		2FBE2BFF1F74B58F00E202F4 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		2FBE2C021F74B5A500E202F4 /* FouthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FouthViewController.h; sourceTree = "<group>"; };
+		2FBE2C031F74B5A500E202F4 /* FouthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FouthViewController.m; sourceTree = "<group>"; };
+		2FBE2C041F74B5A500E202F4 /* FouthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FouthViewController.xib; sourceTree = "<group>"; };
+		2FBE2C0B1F74FE8200E202F4 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2FBE2C0C1F74FE8200E202F4 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2FBE2C0D1F74FE8200E202F4 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		2FBE2C111F7506F600E202F4 /* SearchTVCWithScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTVCWithScroll.h; sourceTree = "<group>"; };
+		2FBE2C121F7506F600E202F4 /* SearchTVCWithScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTVCWithScroll.m; sourceTree = "<group>"; };
+		2FBE2C171F7507FC00E202F4 /* SearchTVCNoScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTVCNoScroll.h; sourceTree = "<group>"; };
+		2FBE2C181F7507FC00E202F4 /* SearchTVCNoScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTVCNoScroll.m; sourceTree = "<group>"; };
+		2FBE2C1A1F75082300E202F4 /* SearchTVCOnly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTVCOnly.h; sourceTree = "<group>"; };
+		2FBE2C1B1F75082300E202F4 /* SearchTVCOnly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTVCOnly.m; sourceTree = "<group>"; };
+		2FBE2C1D1F75084A00E202F4 /* SearchTVCWithSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchTVCWithSort.h; sourceTree = "<group>"; };
+		2FBE2C1E1F75084A00E202F4 /* SearchTVCWithSort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchTVCWithSort.m; sourceTree = "<group>"; };
 		69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.release.xcconfig"; sourceTree = "<group>"; };
 		D9877CB3F820C6868C805147 /* libPods-JWNavBarNestTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWNavBarNestTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.debug.xcconfig"; sourceTree = "<group>"; };
@@ -89,8 +116,13 @@
 		2FBD870D1F737B93005D40A2 /* JWNavBarNestTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				2FBE2C071F74F03B00E202F4 /* firstGroup */,
+				2FBE2C081F74F05100E202F4 /* secondGroup */,
+				2FBE2C091F74F06800E202F4 /* thirdGroup */,
+				2FBE2C0A1F74F08800E202F4 /* fouthGroup */,
 				2FBD87461F73B949005D40A2 /* Model */,
 				2FBD87411F73905F005D40A2 /* util */,
+				2FBE2C101F7500A000E202F4 /* thirdLib */,
 				2FBD873C1F738323005D40A2 /* resources */,
 				2FBD87111F737B93005D40A2 /* AppDelegate.h */,
 				2FBD87121F737B93005D40A2 /* AppDelegate.m */,
@@ -101,12 +133,6 @@
 				2FBD87281F737C2B005D40A2 /* MainViewController.h */,
 				2FBD87291F737C2B005D40A2 /* MainViewController.m */,
 				2FBD872B1F737C95005D40A2 /* MainViewController.xib */,
-				2FBD872D1F737CB8005D40A2 /* FirstViewController.h */,
-				2FBD872E1F737CB8005D40A2 /* FirstViewController.m */,
-				2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */,
-				2FBD87321F737CCA005D40A2 /* SecondViewController.h */,
-				2FBD87331F737CCA005D40A2 /* SecondViewController.m */,
-				2FBD87341F737CCA005D40A2 /* SecondViewController.xib */,
 				2FBD87371F738048005D40A2 /* FirstDetailViewController.h */,
 				2FBD87381F738048005D40A2 /* FirstDetailViewController.m */,
 				2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */,
@@ -148,6 +174,64 @@
 				2FBD87481F73B961005D40A2 /* WeatherModel.m */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		2FBE2C071F74F03B00E202F4 /* firstGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD872D1F737CB8005D40A2 /* FirstViewController.h */,
+				2FBD872E1F737CB8005D40A2 /* FirstViewController.m */,
+				2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */,
+			);
+			name = firstGroup;
+			sourceTree = "<group>";
+		};
+		2FBE2C081F74F05100E202F4 /* secondGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2FBD87321F737CCA005D40A2 /* SecondViewController.h */,
+				2FBD87331F737CCA005D40A2 /* SecondViewController.m */,
+				2FBD87341F737CCA005D40A2 /* SecondViewController.xib */,
+			);
+			name = secondGroup;
+			sourceTree = "<group>";
+		};
+		2FBE2C091F74F06800E202F4 /* thirdGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE2BFD1F74B58F00E202F4 /* ThirdViewController.h */,
+				2FBE2BFE1F74B58F00E202F4 /* ThirdViewController.m */,
+				2FBE2BFF1F74B58F00E202F4 /* ThirdViewController.xib */,
+				2FBE2C0B1F74FE8200E202F4 /* SearchViewController.h */,
+				2FBE2C0C1F74FE8200E202F4 /* SearchViewController.m */,
+				2FBE2C0D1F74FE8200E202F4 /* SearchViewController.xib */,
+				2FBE2C111F7506F600E202F4 /* SearchTVCWithScroll.h */,
+				2FBE2C121F7506F600E202F4 /* SearchTVCWithScroll.m */,
+				2FBE2C171F7507FC00E202F4 /* SearchTVCNoScroll.h */,
+				2FBE2C181F7507FC00E202F4 /* SearchTVCNoScroll.m */,
+				2FBE2C1A1F75082300E202F4 /* SearchTVCOnly.h */,
+				2FBE2C1B1F75082300E202F4 /* SearchTVCOnly.m */,
+				2FBE2C1D1F75084A00E202F4 /* SearchTVCWithSort.h */,
+				2FBE2C1E1F75084A00E202F4 /* SearchTVCWithSort.m */,
+			);
+			name = thirdGroup;
+			sourceTree = "<group>";
+		};
+		2FBE2C0A1F74F08800E202F4 /* fouthGroup */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE2C021F74B5A500E202F4 /* FouthViewController.h */,
+				2FBE2C031F74B5A500E202F4 /* FouthViewController.m */,
+				2FBE2C041F74B5A500E202F4 /* FouthViewController.xib */,
+			);
+			name = fouthGroup;
+			sourceTree = "<group>";
+		};
+		2FBE2C101F7500A000E202F4 /* thirdLib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = thirdLib;
 			sourceTree = "<group>";
 		};
 		C25840BD8BB99DCFF4609D09 /* Frameworks */ = {
@@ -234,9 +318,12 @@
 				2FBD87451F73AA3E005D40A2 /* cities.xml in Resources */,
 				2FBD87401F738F41005D40A2 /* bg.png in Resources */,
 				2FBD871B1F737B93005D40A2 /* Assets.xcassets in Resources */,
+				2FBE2C061F74B5A500E202F4 /* FouthViewController.xib in Resources */,
 				2FBD87311F737CB8005D40A2 /* FirstViewController.xib in Resources */,
+				2FBE2C0F1F74FE8200E202F4 /* SearchViewController.xib in Resources */,
 				2FBD873B1F738048005D40A2 /* FirstDetailViewController.xib in Resources */,
 				2FBD87361F737CCA005D40A2 /* SecondViewController.xib in Resources */,
+				2FBE2C011F74B58F00E202F4 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,12 +386,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				2FBD87351F737CCA005D40A2 /* SecondViewController.m in Sources */,
+				2FBE2C1F1F75084A00E202F4 /* SearchTVCWithSort.m in Sources */,
+				2FBE2C131F7506F600E202F4 /* SearchTVCWithScroll.m in Sources */,
 				2FBD87131F737B93005D40A2 /* AppDelegate.m in Sources */,
+				2FBE2C0E1F74FE8200E202F4 /* SearchViewController.m in Sources */,
+				2FBE2C001F74B58F00E202F4 /* ThirdViewController.m in Sources */,
+				2FBE2C051F74B5A500E202F4 /* FouthViewController.m in Sources */,
+				2FBE2C191F7507FC00E202F4 /* SearchTVCNoScroll.m in Sources */,
 				2FBD872A1F737C2B005D40A2 /* MainViewController.m in Sources */,
 				2FBD87101F737B93005D40A2 /* main.m in Sources */,
 				2FBD873A1F738048005D40A2 /* FirstDetailViewController.m in Sources */,
 				2FBD87491F73B961005D40A2 /* WeatherModel.m in Sources */,
 				2FBD87301F737CB8005D40A2 /* FirstViewController.m in Sources */,
+				2FBE2C1C1F75082300E202F4 /* SearchTVCOnly.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

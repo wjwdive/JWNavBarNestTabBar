@@ -9,6 +9,8 @@
 #import "MainViewController.h"
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FouthViewController.h"
 
 
 @interface MainViewController ()
@@ -55,9 +57,28 @@
     [secondNC.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
     [secondNC.navigationBar setTintColor:[UIColor grayColor]];
     
+//    第三页
+    ThirdViewController *thirdVC = [[ThirdViewController alloc] init];
+    UINavigationController  *thirdNC  = [[UINavigationController alloc] initWithRootViewController:thirdVC];
+    UITabBarItem *thirdTabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:2];
+    thirdNC.tabBarItem = thirdTabBarItem;
+    [thirdNC.navigationBar setBackgroundImage:[UIImage imageNamed: @""] forBarMetrics:UIBarMetricsDefault];
+    [thirdNC.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
+    [thirdNC.navigationBar setTintColor:[UIColor grayColor]];
+    
+    
+//    第四页
+    FouthViewController  *fouthVC = [[FouthViewController alloc] init];
+    UINavigationController *fouthNC = [[UINavigationController alloc] initWithRootViewController:fouthVC];
+    UITabBarItem *fouthTabBarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemContacts tag:3];
+    fouthNC.tabBarItem = fouthTabBarItem;
+    [fouthNC.navigationBar setBackgroundImage:[UIImage imageNamed: @""] forBarMetrics:UIBarMetricsDefault];
+    [fouthNC.navigationBar setBarStyle:UIBarStyleBlackTranslucent];
+    [fouthNC.navigationBar setTintColor:[UIColor grayColor]];
+    
     
 //    5、新建一个导航控制器实例的数组
-    NSArray *controllersArray = @[firstNC, secondNC];
+    NSArray *controllersArray = @[firstNC, secondNC, thirdNC, fouthNC];
 //    6、把导航控制器的数组加入到标签控制器
     [self setViewControllers:controllersArray animated:YES];
     

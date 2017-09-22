@@ -1,41 +1,50 @@
 //
-//  FirstViewController.m
+//  ThirdViewController.m
 //  JWNavBarNestTabBar
 //
-//  Created by infosys on 2017/9/21.
+//  Created by infosys on 2017/9/22.
 //  Copyright © 2017年 wjwdive. All rights reserved.
 //
 
-#import "FirstViewController.h"
-#import "FirstDetailViewController.h"
+#import "ThirdViewController.h"
+#import "SearchViewController.h"
 
-@interface FirstViewController ()
+@interface ThirdViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation ThirdViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    self.title = @"Search";
+    
     UIBarButtonItem *searchBarBtnItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(gotoSearchView)];
     self.navigationItem.rightBarButtonItem = searchBarBtnItem;
-    self.title = @"main";
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-- (IBAction)goToFirstDetail:(id)sender {
-    FirstDetailViewController *firstDetailVC = [[FirstDetailViewController alloc] init];
-    firstDetailVC.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:firstDetailVC animated:YES];
+    
 }
 
 //跳转到搜索界面
 - (void)gotoSearchView{
     NSLog(@"点击了right bar btn item");
+    SearchViewController *searchVC = [[SearchViewController alloc] init];
+    self.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:searchVC animated:YES];
+    self.hidesBottomBarWhenPushed=NO;
+    
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+//    在这里设置无效 需要在跳转之后设置 不隐藏 tabBar
+//    self.hidesBottomBarWhenPushed = NO;
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+
 }
 
 /*
