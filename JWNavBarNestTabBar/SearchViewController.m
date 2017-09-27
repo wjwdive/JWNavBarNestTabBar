@@ -88,7 +88,7 @@
         {
             SearchTVCWithScroll *searchBarScrollTVC = [SearchTVCWithScroll new];
             searchBarScrollTVC.title = _dataSource[indexPath.row];
-//            返回选中搜索的结果
+//          返回选中搜索的结果，用 searchBarScrollTVC 的 didSelectedItem 方法 ,在block 回调中 给cell.detailTextLable.text 赋值
             [searchBarScrollTVC didSelectedItem:^(NSString *item) {
                 cell.detailTextLabel.text = item;
             }];
@@ -96,7 +96,35 @@
             [self.navigationController pushViewController:searchBarScrollTVC animated:YES];
         }
             break;
+        case 1:
+        {
+            SearchTVCNoScroll *searchBarNoScrollTVC = [SearchTVCNoScroll new];
+            searchBarNoScrollTVC.title = _dataSource[indexPath.row];
+            [searchBarNoScrollTVC didSelectedItem:^(NSString *item) {
+                cell.detailTextLabel.text = item;
+            }];
             
+            self.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:searchBarNoScrollTVC animated:YES];
+        }
+            break;
+        case 2:
+        {
+            SearchTVCOnly *onlySearchTVC = [SearchTVCOnly new];
+            onlySearchTVC.title = _dataSource[indexPath.row];
+            [onlySearchTVC didSelectedItem:^(NSString *item) {
+                cell.detailTextLabel.text = item;
+            }];
+            onlySearchTVC.title = _dataSource[indexPath.row];
+            [self.navigationController pushViewController:onlySearchTVC animated:YES];
+        }
+            break;
+            
+        case 3:
+        {
+//            SearchTVCWithSort
+        }
+            break;
         default:
             break;
     }

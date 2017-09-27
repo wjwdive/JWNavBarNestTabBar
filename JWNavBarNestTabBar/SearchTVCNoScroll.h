@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SearchTVCNoScroll : UITableViewController
+typedef void(^SelectedItem)(NSString *item);
 
+@interface SearchTVCNoScroll : UITableViewController
+@property (strong, nonatomic) SelectedItem block;
+- (void)didSelectedItem:(SelectedItem)block;
 @end

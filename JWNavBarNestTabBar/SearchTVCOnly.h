@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+typedef void(^SelectedItem)(NSString * item);
 @interface SearchTVCOnly : UITableViewController
-
+@property (strong, nonatomic) SelectedItem block;
+- (void)didSelectedItem:(SelectedItem)block;
 @end
