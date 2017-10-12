@@ -10,7 +10,7 @@
 
 typedef void(^SelectedItem)(NSString *item);
 
-@interface SearchTVCNoScroll : UITableViewController
+@interface SearchTVCNoScroll : UIViewController
 @property (strong, nonatomic) SelectedItem block;
 - (void)didSelectedItem:(SelectedItem)block;
 @end

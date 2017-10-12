@@ -16,7 +16,7 @@
 #define kColor                  [UIColor colorWithRed:230.0/255.0 green:230.0/255.0 blue:230.0/255.0 alpha:1]
 
 @interface SearchTVCNoScroll ()<UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
-@property (strong, nonatomic) UITableView *friennTableView;
+@property (strong, nonatomic) UITableView *friendTableView;
 @property (strong, nonatomic) UISearchBar *searchBar;
 @property (strong, nonatomic) NSArray *dataSource;//排序前的这个数据源
 @property (strong, nonatomic) NSDictionary *allDataSource;//排序后的整个数据源
@@ -33,9 +33,9 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     [self initData];
-    [self.view addSubview:self.friennTableView];
+    [self.view addSubview:self.friendTableView];
     [self.view addSubview:self.searchBar];
-    
+    NSLog(@"friendTableView %@--%p",self.friendTableView,self.friendTableView);
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -54,13 +54,13 @@
 }
 
 - (UITableView *)friendTableView {
-    if (!_friennTableView) {
-        _friennTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 44, kScreenWidth, kScreenHeight - 44) style:UITableViewStylePlain];
-        _friennTableView.backgroundColor = kColor;
-        _friennTableView.delegate = self;
-        _friennTableView.dataSource  = self;
+    if (!_friendTableView) {
+        _friendTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 44, kScreenWidth, kScreenHeight - 44) style:UITableViewStylePlain];
+        _friendTableView.backgroundColor = kColor;
+        _friendTableView.delegate = self;
+        _friendTableView.dataSource  = self;
     }
-    return _friennTableView;
+    return _friendTableView;
 }
 
 - (UISearchBar *)searchBar {
@@ -113,9 +113,9 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell1"];
     if (cell == nil) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"Cell1"];
         [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
     }
     if (!_isSearch) {
@@ -162,11 +162,11 @@
         arry = [ZYPinYinSearch searchWithOriginalArray:arry andSearchText:searchText andSearchByPropertyName:@"name"];
         [_searchDataSource addObjectsFromArray:arry];
     }
-    [self.friennTableView reloadData];
+    [self.friendTableView reloadData];
     
 }
 //输入完 搜索内容
-- (void)searchBarTextDidEndEditing:(UISearchBar *)searchBar {
+- (void)searchBarTextDidBeginEditing:(UISearchBar *)searchBar {
     [UIView animateWithDuration:0.3 animations:^{
         self.navigationController.navigationBarHidden = YES;
         _searchBar.frame = CGRectMake(0, 20, kScreenWidth, 44);
@@ -181,7 +181,7 @@
     [_searchBar resignFirstResponder];
     _searchBar.text = @"";
     _isSearch = NO;
-    [_friennTableView reloadData];
+    [_friendTableView reloadData];
 }
 
 #pragma mark - block
