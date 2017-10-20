@@ -2,17 +2,42 @@
 //  PrefixHeader.pch
 //  JWNavBarNestTabBar
 //
-//  Created by infosys on 2017/9/21.
+//  Created by jiangwei.wang on 2017/10/20.
 //  Copyright © 2017年 wjwdive. All rights reserved.
 //
 
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
-#import "AFNetworking.h"
-#import "YYModel.h"
-#import "MBProgressHUD.h"
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #endif /* PrefixHeader_pch */
+
+#ifdef DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"%s:%d\t%s\n",[[[NSString stringWithUTF8String:__FILE__] lastPathComponent] UTF8String], __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+
+
+#ifdef  __OBJC__ // 屏蔽C文件的宏,防止以下OC内容被导入C语言文件!
+
+/**
+ * 调试的宏
+ */
+#ifdef DEBUG // 测试!
+#define NSLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+#define NSLog(...)
+#endif
+
+
+#endif
+
+
+#import <AFNetworking.h>
+#import <FMDB.h>
+#import <MBProgressHUD.h>
+#import <YYModel.h>
+
+#endif

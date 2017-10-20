@@ -21,6 +21,7 @@
     UIBarButtonItem *searchBarBtnItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(gotoSearchView)];
     self.navigationItem.rightBarButtonItem = searchBarBtnItem;
     self.title = @"main";
+    
 }
 
 - (void)didReceiveMemoryWarning {

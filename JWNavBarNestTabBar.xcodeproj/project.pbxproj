@@ -17,7 +17,6 @@
 		2FBD87301F737CB8005D40A2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD872E1F737CB8005D40A2 /* FirstViewController.m */; };
 		2FBD87311F737CB8005D40A2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */; };
 		2FBD87351F737CCA005D40A2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87331F737CCA005D40A2 /* SecondViewController.m */; };
-		2FBD87361F737CCA005D40A2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87341F737CCA005D40A2 /* SecondViewController.xib */; };
 		2FBD873A1F738048005D40A2 /* FirstDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBD87381F738048005D40A2 /* FirstDetailViewController.m */; };
 		2FBD873B1F738048005D40A2 /* FirstDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */; };
 		2FBD87401F738F41005D40A2 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2FBD873F1F738F41005D40A2 /* bg.png */; };
@@ -44,6 +43,9 @@
 		2FBE2C3A1F7B50D500E202F4 /* ZYPinYinSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C311F7B50D500E202F4 /* ZYPinYinSearch.m */; };
 		2FBE2C401F7B50DD00E202F4 /* HCSortString.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C3D1F7B50DD00E202F4 /* HCSortString.m */; };
 		2FBE2C411F7B50DD00E202F4 /* UIAlertController+HCAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE2C3F1F7B50DD00E202F4 /* UIAlertController+HCAdd.m */; };
+		B86F761A1F99DA0600D8B1A8 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B86F76191F99DA0600D8B1A8 /* MyTableViewCell.m */; };
+		B88EE0DF1F989F7200AAB17E /* WJWDrawRectVC1.m in Sources */ = {isa = PBXBuildFile; fileRef = B88EE0DE1F989F7200AAB17E /* WJWDrawRectVC1.m */; };
+		B88EE0E11F98ACC700AAB17E /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88EE0E01F98ACC700AAB17E /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +64,6 @@
 		2FBD872F1F737CB8005D40A2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		2FBD87321F737CCA005D40A2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2FBD87331F737CCA005D40A2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		2FBD87341F737CCA005D40A2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		2FBD87371F738048005D40A2 /* FirstDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstDetailViewController.h; sourceTree = "<group>"; };
 		2FBD87381F738048005D40A2 /* FirstDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstDetailViewController.m; sourceTree = "<group>"; };
 		2FBD87391F738048005D40A2 /* FirstDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstDetailViewController.xib; sourceTree = "<group>"; };
@@ -111,6 +112,12 @@
 		2FBE2C3E1F7B50DD00E202F4 /* UIAlertController+HCAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+HCAdd.h"; sourceTree = "<group>"; };
 		2FBE2C3F1F7B50DD00E202F4 /* UIAlertController+HCAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+HCAdd.m"; sourceTree = "<group>"; };
 		69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.release.xcconfig"; sourceTree = "<group>"; };
+		B86F76171F99D1CD00D8B1A8 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = JWNavBarNestTabBar/PrefixHeader.pch; sourceTree = "<group>"; };
+		B86F76181F99DA0600D8B1A8 /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		B86F76191F99DA0600D8B1A8 /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		B88EE0DD1F989F7200AAB17E /* WJWDrawRectVC1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJWDrawRectVC1.h; sourceTree = "<group>"; };
+		B88EE0DE1F989F7200AAB17E /* WJWDrawRectVC1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJWDrawRectVC1.m; sourceTree = "<group>"; };
+		B88EE0E01F98ACC700AAB17E /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		D9877CB3F820C6868C805147 /* libPods-JWNavBarNestTabBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JWNavBarNestTabBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWNavBarNestTabBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWNavBarNestTabBar/Pods-JWNavBarNestTabBar.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +190,7 @@
 		2FBD873C1F738323005D40A2 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				B86F76171F99D1CD00D8B1A8 /* PrefixHeader.pch */,
 				2FBD87441F73AA3E005D40A2 /* cities.xml */,
 				2FBD873F1F738F41005D40A2 /* bg.png */,
 			);
@@ -223,7 +231,11 @@
 			children = (
 				2FBD87321F737CCA005D40A2 /* SecondViewController.h */,
 				2FBD87331F737CCA005D40A2 /* SecondViewController.m */,
-				2FBD87341F737CCA005D40A2 /* SecondViewController.xib */,
+				B88EE0E01F98ACC700AAB17E /* SecondViewController.xib */,
+				B88EE0DD1F989F7200AAB17E /* WJWDrawRectVC1.h */,
+				B88EE0DE1F989F7200AAB17E /* WJWDrawRectVC1.m */,
+				B86F76181F99DA0600D8B1A8 /* MyTableViewCell.h */,
+				B86F76191F99DA0600D8B1A8 /* MyTableViewCell.m */,
 			);
 			name = secondGroup;
 			sourceTree = "<group>";
@@ -390,9 +402,9 @@
 				2FBD871B1F737B93005D40A2 /* Assets.xcassets in Resources */,
 				2FBE2C061F74B5A500E202F4 /* FouthViewController.xib in Resources */,
 				2FBD87311F737CB8005D40A2 /* FirstViewController.xib in Resources */,
+				B88EE0E11F98ACC700AAB17E /* SecondViewController.xib in Resources */,
 				2FBE2C0F1F74FE8200E202F4 /* SearchViewController.xib in Resources */,
 				2FBD873B1F738048005D40A2 /* FirstDetailViewController.xib in Resources */,
-				2FBD87361F737CCA005D40A2 /* SecondViewController.xib in Resources */,
 				2FBE2C011F74B58F00E202F4 /* ThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +476,7 @@
 				2FBE2C321F7B50D500E202F4 /* ChineseInclude.m in Sources */,
 				2FBD87131F737B93005D40A2 /* AppDelegate.m in Sources */,
 				2FBE2C3A1F7B50D500E202F4 /* ZYPinYinSearch.m in Sources */,
+				B86F761A1F99DA0600D8B1A8 /* MyTableViewCell.m in Sources */,
 				2FBE2C371F7B50D500E202F4 /* PinYinForObjc.m in Sources */,
 				2FBE2C331F7B50D500E202F4 /* ChineseToPinyinResource.m in Sources */,
 				2FBE2C0E1F74FE8200E202F4 /* SearchViewController.m in Sources */,
@@ -472,6 +485,7 @@
 				2FBE2C051F74B5A500E202F4 /* FouthViewController.m in Sources */,
 				2FBE2C191F7507FC00E202F4 /* SearchTVCNoScroll.m in Sources */,
 				2FBE2C341F7B50D500E202F4 /* HanyuPinyinOutputFormat.m in Sources */,
+				B88EE0DF1F989F7200AAB17E /* WJWDrawRectVC1.m in Sources */,
 				2FBD872A1F737C2B005D40A2 /* MainViewController.m in Sources */,
 				2FBD87101F737B93005D40A2 /* main.m in Sources */,
 				2FBD873A1F738048005D40A2 /* FirstDetailViewController.m in Sources */,
@@ -593,11 +607,17 @@
 			baseConfigurationReference = E5A3B42736537505E004EF23 /* Pods-JWNavBarNestTabBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = LHK6PK48JE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWNavBarNestTabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = JWNavBarNestTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjw.JWNavBarNestTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -606,11 +626,17 @@
 			baseConfigurationReference = 69D7FA615A1206A663723056 /* Pods-JWNavBarNestTabBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = LHK6PK48JE;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/JWNavBarNestTabBar/PrefixHeader.pch";
 				INFOPLIST_FILE = JWNavBarNestTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wjw.JWNavBarNestTabBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
